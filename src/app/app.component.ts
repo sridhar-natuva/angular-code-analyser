@@ -1,15 +1,7 @@
 import { Component } from '@angular/core';
 
 const defaults = {
-  markdown:
-    '# Heading\n\nSome **bold** and _italic_ text\nBy [Scott Cooper](https://github.com/scttcper)',
-  'text/typescript':
-    `const component = {
-  name: "@ctrl/ngx-codemirror",
-  author: "Scott Cooper",
-  repo: "https://github.com/typectrl/ngx-codemirror"
-};
-const hello: string = 'world';`,
+
 };
 
 @Component({
@@ -18,10 +10,16 @@ const hello: string = 'world';`,
 })
 export class AppComponent {
   readOnly = false;
-  mode = 'markdown';
+  mode = 'javascript';
+  
   options: any = {
     lineNumbers: true,
+    
     mode: this.mode,
+    styleActiveLine: true,
+    matchBrackets: true,
+
+    
   };
   defaults = defaults;
 
@@ -33,7 +31,7 @@ export class AppComponent {
   }
 
   handleChange($event) {
-    console.log('ngModelChange', $event);
+    //console.log('ngModelChange', $event);
   }
 
   clear() {

@@ -12,9 +12,7 @@
     "@angular/forms": ">=8.0.0",
     "codemirror": "^5.47.0"
   },
-  "repository": "typectrl/ngx-codemirror",
-  "homepage": "https://github.com/typectrl/ngx-codemirror",
-  "bugs": "https://github.com/typectrl/ngx-codemirror/issues",
+
   "keywords": ["ngx", "angular", "wrapper", "codemirror"],
   "ngPackage": {
     "whitelistedNonPeerDependencies": [

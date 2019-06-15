@@ -6,9 +6,8 @@ import { Component, VERSION } from '@angular/core';
   <footer class="footer mb-4 mt-5">
     Angular {{ version }}
     <br>
-    Released under the
-    <a href="https://github.com/typectrl/ngx-codemirror/blob/master/LICENSE">MIT</a> license
-    -
+
+   
     <a href="https://github.com/typectrl/ngx-codemirror">View Source</a>
   </footer>
   `,

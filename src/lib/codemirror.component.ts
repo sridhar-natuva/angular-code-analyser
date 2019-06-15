@@ -35,13 +35,13 @@ var CodeMirror: any;
 /* tslint:enable */
 
 @Component({
-  selector: 'ngx-codemirror',
+  selector: 'codemirror',
   template: `
   <textarea
     [name]="name"
     class="ngx-codemirror {{ className }}"
     [class.ngx-codemirror--focused]="isFocused"
-    autocomplete="off"
+    autocomplete="on"
     [autofocus]="autoFocus"
     #ref>
   </textarea>
