@@ -8,7 +8,7 @@ import { Component, VERSION } from '@angular/core';
     <br>
 
    
-    <a href="https://github.com/typectrl/ngx-codemirror">View Source</a>
+    <a href="https://github.com/sridhar-natuva/angular-code-analyser">View Source</a>
   </footer>
   `,
   styles: [
